@@ -384,6 +384,7 @@ body{
   border: 2px solid #f1fffa;
   border-radius: 0;
   color: #f1fffa;
+  flex: 0 0 10rem;
   transition: all 2s ease;
 }
 #contact-form button:hover{
@@ -392,3 +393,42 @@ body{
   color: #2a9134;
 }
 /** END OF CONTACT FORM SECTION **/
+/** VALUES SECTION **/
+.value{
+  position: relative;
+}
+.value-icon{
+  font-size: 3.75rem;
+  color: #f1fffa;
+  background-color: #242424;
+  padding: 1.5625rem 2.1875rem;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  transition: all 2s ease;
+}
+.value-number{
+  font-size: 1.25rem;
+  color: #242424;
+  background-color: #2a9134;
+  padding: .9375rem;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: -12%;
+  left: 57%;
+  transition: all 2s ease;
+}
+.value:hover .value-icon{
+  background-color: #2a9134;
+  transform: scale(1.2);
+}
+.value:hover .value-number{
+  color: #f1fffa;
+  background-color: #242424;
+  transform: scale(.9);
+}
+/** END OF VALUES SECTION **/
+/** TEAM SECTION **/
+
+/** END OF TEAM SECTION **/
