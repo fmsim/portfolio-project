@@ -475,5 +475,35 @@ body{
 }
 /** END OF TEAM SECTION **/
 /** REVIEWS SECTION **/
-
+#reviews{
+  background: linear-gradient(rgba(42, 145, 52, .7), rgba(42, 145, 52, .7)), url('../img/banner-1.jpeg');
+  color: #f1fffa;
+}
+.customer-text h3{
+  color: #242424;
+}
+.customer-text h4{
+  color: #a5a5a5;
+}
+.customer-text p{
+  line-height: 1.5;
+}
+.customer-text p svg{
+  font-size: 2.5rem;
+  color: #cbcb00;
+}
+.ratings{
+  color: #cbcb00;
+}
 /** END OF REVIEWS SECTION **/
+/** NUMBERS SECTION **/
+.number{
+  background: #2a9134;
+  color: #242424;
+  transition: all 2s ease;
+}
+.number:hover{
+  background: #242424;
+  color: #2a9134;
+}
+/** END OF NUMBERS SECTION **/
