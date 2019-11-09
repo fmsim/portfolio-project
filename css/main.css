@@ -474,6 +474,17 @@ body{
   color: #242424;
 }
 /** END OF TEAM SECTION **/
+/** NUMBERS SECTION **/
+.number{
+  background: #2a9134;
+  color: #242424;
+  transition: all 2s ease;
+}
+.number:hover{
+  background: #242424;
+  color: #2a9134;
+}
+/** END OF NUMBERS SECTION **/
 /** REVIEWS SECTION **/
 #reviews{
   background: linear-gradient(rgba(42, 145, 52, .7), rgba(42, 145, 52, .7)), url('../img/banner-1.jpeg');
@@ -496,14 +507,56 @@ body{
   color: #cbcb00;
 }
 /** END OF REVIEWS SECTION **/
-/** NUMBERS SECTION **/
-.number{
-  background: #2a9134;
-  color: #242424;
+/** CONTACT SECTION **/
+.height-80{
+  min-height: 80vh;
+}
+#contact{
+  background: linear-gradient(rgba(42, 145, 52, .3), rgba(42, 145, 52, .3)),
+              url('../img/banner-1.jpeg') center /cover fixed no-repeat;
+}
+#contact .card{
+  background-color: rgba(0, 0, 0, .5);
   transition: all 2s ease;
 }
-.number:hover{
-  background: #242424;
+#contact .card:hover{
+    background-color: rgba(0, 0, 0, .8);
+}
+#contact .card-header{
   color: #2a9134;
 }
-/** END OF NUMBERS SECTION **/
+#contact .input-group-text{
+  background-color: #2a9134;
+  color: #242424;
+  border-color: #2a9134;
+}
+#contact .card input::placeholder{
+  color: #606060;
+}
+.contact-btn{
+  background-color: #2a9134;
+  color: #f1fffa;
+  transition: all 2s ease-in-out;
+}
+.contact-btn:hover{
+  background-color: transparent;
+  color: #2a9134;
+  border-color: #2a9134;
+}
+/** END OF CONTACT SECTION **/
+/** FOOTER SECTION **/
+footer{
+  background-color: #242424;
+}
+footer h5{
+  color: #f1fffa;
+}
+.footer-icons a{
+  color: #2a9134;
+  font-size: 1.5625rem;
+  transition: color 1s ease;
+}
+.footer-icons a:hover{
+  color: #f1fffa;
+}
+/** END OF FOOTER SECTION **/
