@@ -429,6 +429,28 @@ body{
   transform: scale(.9);
 }
 /** END OF VALUES SECTION **/
+/** REVIEWS SECTION **/
+#reviews{
+  background: linear-gradient(rgba(42, 145, 52, .7), rgba(42, 145, 52, .7)), url('../img/banner-1.jpeg');
+  color: #f1fffa;
+}
+.customer-text h3{
+  color: #242424;
+}
+.customer-text h4{
+  color: #a5a5a5;
+}
+.customer-text p{
+  line-height: 1.5;
+}
+.customer-text p svg{
+  font-size: 2.5rem;
+  color: #cbcb00;
+}
+.ratings{
+  color: #cbcb00;
+}
+/** END OF REVIEWS SECTION **/
 /** TEAM SECTION **/
 .member-container{
   position: relative;
@@ -485,28 +507,6 @@ body{
   color: #2a9134;
 }
 /** END OF NUMBERS SECTION **/
-/** REVIEWS SECTION **/
-#reviews{
-  background: linear-gradient(rgba(42, 145, 52, .7), rgba(42, 145, 52, .7)), url('../img/banner-1.jpeg');
-  color: #f1fffa;
-}
-.customer-text h3{
-  color: #242424;
-}
-.customer-text h4{
-  color: #a5a5a5;
-}
-.customer-text p{
-  line-height: 1.5;
-}
-.customer-text p svg{
-  font-size: 2.5rem;
-  color: #cbcb00;
-}
-.ratings{
-  color: #cbcb00;
-}
-/** END OF REVIEWS SECTION **/
 /** CONTACT SECTION **/
 .height-80{
   min-height: 80vh;
