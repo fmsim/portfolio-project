@@ -430,5 +430,50 @@ body{
 }
 /** END OF VALUES SECTION **/
 /** TEAM SECTION **/
-
+.member-container{
+  position: relative;
+  overflow: hidden;
+  background-color: #2a9134;
+}
+.team-image{
+  transition: all 2s ease-in-out;
+}
+.member-container:hover .team-image{
+  transform: translateY(-4.5rem);
+  opacity: .5;
+}
+.team-icons a{
+  color: #f1fffa;
+  font-size: 1.5625rem;
+  transition: color 1s ease;
+}
+.team-icons a:hover{
+  color: #242424;
+}
+.member-info{
+  transition: all 2s ease-in-out;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2a9134;
+  color: #242424;
+  margin-bottom: -8.75rem;
+  padding: .625rem;
+}
+.member-container:hover .member-info{
+  margin-bottom: 0;
+}
+.member-icon a{
+  font-size: 4rem;
+  color: #f1fffa;
+  transition: all 2s ease;
+}
+.member-icon a:hover{
+  text-decoration: none;
+  color: #242424;
+}
 /** END OF TEAM SECTION **/
+/** REVIEWS SECTION **/
+
+/** END OF REVIEWS SECTION **/
